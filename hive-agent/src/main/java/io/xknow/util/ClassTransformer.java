@@ -8,9 +8,6 @@ import java.lang.instrument.ClassFileTransformer;
 import java.lang.instrument.IllegalClassFormatException;
 import java.security.ProtectionDomain;
 
-/**
- * Created by zxy on 15-6-9.
- */
 public class ClassTransformer implements ClassFileTransformer {
     private String classFullName = null;
     private String classFilePath = null;

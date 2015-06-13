@@ -24,12 +24,16 @@
         <processorPath useClasspath="true" />
         <module name="hive-agent" />
         <module name="hive-agent-exts" />
+        <module name="hive-history-jdbc" />
+        <module name="hive-history-null" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="hive-agent" target="1.5" />
       <module name="hive-agent-exts" target="1.5" />
       <module name="hive-history" target="1.5" />
+      <module name="hive-history-jdbc" target="1.5" />
+      <module name="hive-history-null" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
